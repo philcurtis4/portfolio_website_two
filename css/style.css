@@ -17,6 +17,9 @@ html, body {
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
 /* Customization */
 
 header {
@@ -29,10 +32,14 @@ header {
 }
 
 header nav a {
-    margin-left: 8px;
+    margin-left: 15px;
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--primary-color)
+}
+
+header nav a:hover {
+    color: white;
 }
 
 #logo {
@@ -43,4 +50,29 @@ header nav a {
 
 figure {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+figure img {
+    width: 40%;
+    margin: 30px 50px;
+    border-radius: 20px;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   flex: 1;
+}
+
+figcaption h2 {
+    font-size: 4rem;
+}
+
+figcaption p {
+    font-size: 2rem;
 }
