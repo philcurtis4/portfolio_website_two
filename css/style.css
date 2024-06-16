@@ -1,0 +1,46 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Variables */ 
+:root {
+    --primary-color: rgb(135, 62, 196);
+}
+
+/* Resets*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Customization */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2%;
+    background-color: black;
+    align-items: center;
+    ;
+}
+
+header nav a {
+    margin-left: 8px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+#logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+figure {
+    display: flex;
+}
