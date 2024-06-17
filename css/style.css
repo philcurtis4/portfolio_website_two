@@ -53,6 +53,7 @@ figure {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding-bottom: 30px;
 }
 
 figure img {
@@ -75,4 +76,21 @@ figcaption h2 {
 
 figcaption p {
     font-size: 2rem;
+}
+
+main {
+    padding: 0 2%;
+}
+main h3 {
+    font-size: 3rem;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
 }
