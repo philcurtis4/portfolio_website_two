@@ -59,7 +59,7 @@ figure {
 figure img {
     width: 40%;
     margin: 30px 50px;
-    border-radius: 20px;
+    border-radius: 60px;
 }
 
 figcaption {
@@ -79,14 +79,33 @@ figcaption p {
 }
 
 main {
-    padding: 0 2%;
+    padding: 0 2% 70px 2%;
 }
 main h3 {
     font-size: 3rem;
+    padding-bottom: 30px;
 }
 
 main p {
     font-size: 2rem;
+}
+
+section {
+    padding: 0 2%;
+    
+}
+section h3 {
+    font-size: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid .main-article {
+    grid-column: 1 / 4;
 }
 
 footer {
