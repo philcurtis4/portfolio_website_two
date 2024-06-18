@@ -3,7 +3,7 @@
 
 /* Variables */ 
 :root {
-    --primary-color: rgb(135, 62, 196);
+    --primary-color: rgb(198, 115, 236);
 }
 
 /* Resets*/
@@ -28,7 +28,7 @@ header {
     padding: 10px 2%;
     background-color: black;
     align-items: center;
-    ;
+    
 }
 
 header nav a {
@@ -53,7 +53,7 @@ figure {
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 figure img {
@@ -80,19 +80,30 @@ figcaption p {
 
 main {
     padding: 0 2% 70px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 main h3 {
     font-size: 3rem;
-    padding-bottom: 30px;
+    padding-right: 120px;
+    white-space: nowrap;
 }
 
 main p {
     font-size: 2rem;
 }
 
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+}
 section {
     padding: 0 2%;
     padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 section h3 {
@@ -103,6 +114,8 @@ section h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    width: 1500px;
+    
 }
 
 .grid .main-article {
@@ -114,12 +127,25 @@ section h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
+    background-color: rgb(198, 115, 236, .7);
+    padding: 10px;
+    margin : 50px;
+    border-radius: 50px;
     height: 200px;
-    color: white;
+    bottom: 0;
+    
+    
 }
-
+.grid article {
+    border: 5px solid var(--primary-color);
+    background-position: center;
+    background-size: cover;
+    
+}
 .grid a {
-    color: white;
+    color: rgb(128, 0, 122);
+   
 }
 
 .grid a:hover {
@@ -128,14 +154,22 @@ section h3 {
 
 .contacts {
     padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .contacts h3 {
     font-size: 3rem;
 }
 
-.contacts p {
+.contacts p, .contacts a {
     font-size: 2rem;
+    padding: 50px;
+    background-color: rgb(189, 186, 186);
+    border-radius: 50px;
+    border: 5px solid var(--primary-color);
 }
 
 footer {
