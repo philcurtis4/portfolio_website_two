@@ -143,3 +143,44 @@ footer {
     justify-content: space-between;
     padding: 20px 2%;
 }
+
+@media (max-width: 1070px) {
+    figcaption h2 {
+        font-size: 3rem;
+    }
+    
+    figcaption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 850px) {
+    figcaption h2 {
+        font-size: 2rem;
+    }
+    
+    figcaption p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 630px) {
+    figcaption h2 {
+        font-size: 1.5rem;
+    }
+    
+    figcaption p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 590px) {
+    header nav a {
+        margin-left: 15px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: var(--primary-color)
+    }
+}
