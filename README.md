@@ -10,9 +10,11 @@ git clone https://github.com/philcurtis4/portfolio_website_two
 The live site may be viewed at the following url.
 https://YOUR_USERNAME.github.io/REPO_NAME/
 Here is a screenshot of the page.
-![Top of page](./images/screenshot-one.jpg)
-![Mid section of page](./images/screenshot-two.jpg)
-![Bottom of page](./images/screenshot-three.jpg)
+![Top of page](./assests/images/screenshot-one.jpg)
+![Mid section of page](./assests/images/screenshot-two.jpg)
+![Mid Sectoion of page](./assests/images/screenshot-three.jpg)
+![Bottom of page](./assests/images/screenshot-four.jpg)
+    
     
 ## Credits
 I created this webpage from scratch.
