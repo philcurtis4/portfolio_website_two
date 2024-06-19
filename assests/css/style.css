@@ -105,6 +105,7 @@ section {
     justify-content: space-between;
     align-items: center;
     
+    
 }
 section h3 {
     font-size: 3rem;
@@ -117,14 +118,53 @@ section h3 {
     width: 1500px;
     
 }
-.grid article {
+
+.grid .first_website {
     display: flex;
-}
-.grid .main-article {
-    grid-column: 1 / 4;
+    
+    
 }
 
-.grid article .article-content {
+.grid .hover:hover{
+    opacity: .5;
+}
+.grid .first_website {
+    grid-column: 1 / 4;
+    text-decoration: none;
+    background-image: url(../images/computer-pic.jpg);
+}
+
+.second_website {
+    background-image: url(../images/camera.jpg);
+    text-decoration: none;
+}
+
+.third_website {
+    background-image: url(../images/hockey-puck.jpg) ;
+    text-decoration: none;
+}
+
+.fourth_website {
+    background-image: url(../images/guitar.jpg);
+    text-decoration: none;
+}
+
+.fifth_website {
+    background-image: url(../images/surf.jpg);
+    text-decoration: none;
+}
+
+.sixth_website {
+    background-image: url(../images/travel.jpg);
+    text-decoration: none;
+}
+
+.seventh_website{
+    background-image: url(../images/basketball.jpg);
+    text-decoration: none;
+}
+
+.grid a .article-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +179,7 @@ section h3 {
     
     
 }
-.grid article {
+.grid a {
     border: 5px solid var(--primary-color);
     background-position: center;
     background-size: cover;
