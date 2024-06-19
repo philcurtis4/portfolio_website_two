@@ -8,7 +8,7 @@ git clone https://github.com/philcurtis4/portfolio_website_two
 
 ## Usage
 The live site may be viewed at the following url.
-https://YOUR_USERNAME.github.io/REPO_NAME/
+https://philcurtis4.github.io/portfolio_website_two/
 Here is a screenshot of the page.
 ![Top of page](./assests/images/screenshot-one.jpg)
 ![Mid section of page](./assests/images/screenshot-two.jpg)
